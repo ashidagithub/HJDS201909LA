@@ -8,7 +8,7 @@
 #   使用英雄的类
 # ------------------------(max to 80 columns)-----------------------------------
 
-from pkg_KingOfGlory.class_hero import Hero
+from pkg_KOG.class_hero import Hero
 
 cjsh = Hero('苍狼末裔', '成吉思汗', '射手ARCHER')
 #cjsh.show_me()
