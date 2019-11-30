@@ -14,7 +14,6 @@ sys.path.append('..')
 # 引用自定义的类及功能包
 from pkg_KOG.class_equipment import Equipment
 
-
 class EQMana(Equipment):
 
     # 添加独有加成

@@ -14,7 +14,6 @@ sys.path.append('..')
 # 引用自定义的类及功能包
 from pkg_KOG.class_equipment import Equipment
 
-
 class EQDefense(Equipment):
 
     # 添加独有加成
@@ -25,7 +24,6 @@ class EQDefense(Equipment):
         print('       +回血:%0.2f' % (self.restore_life_force))
         print('-----------------')
         return
-
 
 if __name__ == '__main__':
     eq = EQDefense()
